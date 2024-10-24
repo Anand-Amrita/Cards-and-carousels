@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Website</title>
+    <!-- Correct the link to CSS styles -->
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <header style="background-color: blue;height:50px">
+        <p style="margin-left: 30px;">Anand's Photos</p>
+    </header>
+    <div class="card-group">
+        <div class="card">
+          <img src="card-1.JPG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Photo 1</h5>
+            <p class="card-text">This is Anand's first photo</p>
+          </div>
+        <button class="btn btn-primary" style="width:200px; margin-left:100px; margin-bottom:30px;">Click me</button>
+        </div>
+        <div class="card">
+          <img src="card-2.JPG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Photo 2</h5>
+            <p class="card-text">This is Anand's second photo</p>
+          </div>
+          <button class="btn btn-primary" style="width:200px; margin-left:100px; margin-bottom:30px;">Click me</button>
+        </div>
+        <div class="card">
+          <img src="card-3.JPG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Photo 3</h5>
+            <p class="card-text">This is Anand's third photo</p>
+          </div>
+          <button class="btn btn-primary" style="width:200px; margin-left:100px; margin-bottom:30px;">Click me</button>
+        </div>
+        <div class="card">
+            <img src="card-4.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Photo 4</h5>
+              <p class="card-text">This is Anand's fourth photo</p>
+            </div>
+            <button class="btn btn-primary" style="width:200px; margin-left:100px; margin-bottom:30px;">Click me</button>
+          </div>
+      </div>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="A55I1884.JPG" class="d-block w-100" alt="Slide 1" style="height: 900px; width:800px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color:white;font-weight: bold;">Anand's first Image</h5>
+                    <p style="color:blue; font-weight: bold;">COOL PHOTO 1</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="A55I1885.JPG" class="d-block w-100" alt="Slide 2" style="height: 900px; width:800px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color:white;font-weight: bold;">Anand's second Image</h5>
+                    <p style="color: blue; font-weight: bold;">COOL PHOTO 2</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="A55I1886.JPG" class="d-block w-100" alt="Slide 3" style="height: 900px; width:800px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color:white; font-weight: bold;">Anand's third image</h5>
+                    <p style="color: blue; font-weight: bold;">COOL PHOTO 3</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
